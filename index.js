@@ -20,8 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function fetchWeatherData(city) {
-        // Replace with your API key and URL
-        const apiKey = '4f3cbb5bf264438d9e05007bb86186d6';
+        const apiKey = 'faff234bf817057f05695e651b7fad30';
         const currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
         const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`;
 
